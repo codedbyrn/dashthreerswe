@@ -126,7 +126,7 @@ export const Card: React.FC<CardProps> = ({
 
         {/* Cover Image */}
         {coverImage && (
-          <div className="relative w-full h-36 mb-4 rounded-sm overflow-hidden bg-brand-bg/10 border border-gray-100">
+          <div className="relative w-full h-30 mb-4 rounded-sm overflow-hidden bg-brand-bg/10 border border-gray-100">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={coverImage}

@@ -41,7 +41,7 @@ export const Card: React.FC<CardProps> = ({
   headerRight,
   favorite,
   onFavoriteToggle,
-  coverImage,
+  ,
   title,
   url,
   urlIcon = "externalLink",
@@ -131,7 +131,7 @@ export const Card: React.FC<CardProps> = ({
             <img
               src={coverImage}
               alt={title}
-              className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-102"
+              className="object-cover w-full h-full"
               loading="lazy"
             />
           </div>
